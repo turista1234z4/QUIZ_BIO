@@ -1,0 +1,120 @@
+:root{
+    --cor_de_fundo : rgb(12,150,6);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+:root {
+    --primary:black ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/*header*/
+header {
+    padding: 15px 0;
+    box-shadow: 1px 0 15px rgba(98, 98, 98, 0.294);
+    margin-bottom: 50px;
+    background-color: rgb(38, 83, 36);
+    color: white;
+    text-shadow: 1px 0 15px rgb(75, 74, 74);
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-header {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.btn-contained {
+    background-color: var(--cor_de_fundo);
+    padding: 10px 35px;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 1px 0 15px #223022;
+    color: white;
+}
+/*fim do header*/
+
+h2,
+p {
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+
+.container1 {
+    
+    background-color: #fbf9ff;
+    width: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: black;
+    box-shadow: 1px 0 15px #fbf9ff;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.btn-void {
+    padding-top: 30px;
+    background-color: var(--cor_de_fundo);
+    padding: 10px 35px;
+    color: #fbf9ff;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 1px 0 15px #9395d3;
+
+}
+p{
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.cor{
+    color: black;
+}
+.kuromi{
+    width: 100px;
+    display: flex;
+    border-radius: 30px;
+}
+h1{
+    font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 500px;
+  font-style: normal;
+  font-size: xx-large;
+  padding-left: 30px;
+}
+footer{
+    width: auto;
+    background-color: #b3b7ee;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
