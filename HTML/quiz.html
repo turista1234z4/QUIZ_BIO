@@ -1,59 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
-    <script src="../JS/quiz.js" type="module"></script>
+    <title>Quiz Bio</title>
+    <link rel="stylesheet" href="../CSS/quiz.css">
+    <script src="../JS/questoes.js" type="text/javascript" defer></script>
+    <script src="../JS/quiz.js" type="text/javascript" defer></script>
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <div class="nav-menu">
-                <!--<a href="../index.html"><img class="kuromi" src="../img/corujacio.jpg" alt=""></a>-->
-                <a href="../index.html">
-                    <h1 class="tituloprin">QUIZ BIOLOGIA</h1>
-                </a>
-                <div class="cor">
-                    <div class="btn-header"></div>
-                    <a class="btn-contained" href="https://github.com/turista1234z4">GitHub</a>
-                </div>
-            </div>
+
+    
+    <a href="../home.html">
+        <h1>QUIZ BIO</h1>
+    </a>
+    <main>
+        <div class="conteudo">
+            <span class="qtd"></span>
+            <span class="question"></span>
+            <div class="answers"></div>
         </div>
-        <div></div>
-    </header>
-
-    <div class="tudo">
-
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-        <footer>
-
-            <a href="https://www.instagram.com/jopedrozef/">
-                <p class="corinsta">João Pedro</p>
-            </a>
-
-            <a href="https://www.instagram.com/guiizin.https/">
-                <p class="corinsta">José Guilherme</p>
-            </a>
-
-            <a href="https://www.instagram.com/the_mathz4/">
-                <p class="corinsta">Matheus Eduardo</p>
-            </a>
-
-            <a href="https://www.instagram.com/wilson_sanfins/">
-                <p class="corinsta">Wilson Sanfins</p>
-            </a>
-
-        </footer>
-
+        <div class="finish">
+           <span></span>
+           <button id="btn-restart">Reiniciar</button> 
+        </div>
+    </main>
 </body>
-
 </html>

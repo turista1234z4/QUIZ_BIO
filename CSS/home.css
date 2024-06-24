@@ -1,0 +1,35 @@
+
+body{
+    align-items: center;
+
+}
+.fundo{
+    position: relative;
+}
+
+.escolhas{
+    display: block;
+    position: absolute;
+    border: 3px 3px 3px solid black;
+    z-index: 3;
+    left: 0;
+    margin: 0;
+    top: 0;
+    padding: 0;
+    background-color: rgb(38, 83, 36);
+    margin-left: 47%;
+    margin-top: 25%;
+}
+.escolhas a {
+     text-decoration: none;
+}
+
+.escolhas ul li{
+    list-style-type: none;
+}
+
+.escolhas cabecalho{
+    display: block;
+    background: rgba(255, 0, 0, 0.5);;
+}
+

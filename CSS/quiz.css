@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Spicy+Rice&display=swap');
+
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  background: #02483e;
+}
+
+
+
+main{
+  background-color: #b6b6b6;
+  box-shadow: 1px 0 15px #000000;
+  padding: 10px;
+  border-radius: 10px;
+  width:100%;
+  max-width: 600px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  text-align: center;
+  
+}
+.qtd{
+  text-align: end;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button{
+  width: 90%;
+  text-align: start;
+  padding: 5px;
+  border:none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:  #4180ab;
+  color:white;
+  height: 80px;
+  text-align: center;
+  border: 3px 3px 3px solid black;
+  transition: background-color 0.9s;
+
+}
+.finish{
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+.finish button{
+  text-align: center;
+}
+
+.answer{
+  margin-top: 15px;
+}
+.question h2{
+  font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h1{
+color: white;
+
+
+}
+button:hover{
+  transform: scale(1.1);
+
+  background-color: #48c4a3;
+
+}
+
+
+a{
+  text-decoration: none;
+}
